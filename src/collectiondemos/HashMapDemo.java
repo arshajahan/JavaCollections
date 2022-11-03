@@ -50,27 +50,27 @@ public class HashMapDemo {
 			System.out.println(i);
 		}
 			
-		/*for(Object i:m.keySet())
+		/*for(Object i:m.keySet()) 
 		{
 			System.out.println(i+"     "+m.get(i));
 		}*/
 		
 		// Entry methods
 		//*****************
-		/*for(Map.Entry entry:m.entrySet()) // 101  x
+		for(Entry<Integer, String> entry:m.entrySet()) // 101  x
 		{
 			System.out.println(entry.getKey()+"    "+entry.getValue());
-		}*/
+		}
 		
 		//iterator()
 		
-		Set s=m.entrySet();
+		Set<Entry<Integer, String>> s=m.entrySet();
 		
-		Iterator itr=s.iterator();
+		Iterator<Entry<Integer, String>> itr=s.iterator();
 	
 			while(itr.hasNext())
 			{
-			Map.Entry entry=(Entry) itr.next();   // 101 x  entry
+			Entry<Integer, String> entry=(Entry<Integer, String>) itr.next();   // 101 x  entry
 			System.out.println(entry.getKey()+"      "+entry.getValue());
 			
 			}

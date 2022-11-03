@@ -14,7 +14,7 @@ public class LinkedListDemo1 {
 		//LinkedList <String> l=new LinkedList<String>();
 		//List l=new LinkedList();
 		
-		LinkedList l=new LinkedList();
+		LinkedList<Object> l=new LinkedList<Object>();
 				
 		//Add new elements to the Linkedlist
 		l.add(100);
@@ -72,7 +72,7 @@ public class LinkedListDemo1 {
 		//3) iterator()
 		System.out.println("Reading elements using iterator method");
 		
-		Iterator it=l.iterator();
+		Iterator<Object> it=l.iterator();
 		while(it.hasNext())
 		{
 			System.out.println(it.next()); //printing the element and move to next 

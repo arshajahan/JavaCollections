@@ -8,7 +8,7 @@ public class HashSetDemo1 {
 	public static void main(String[] args) {
 	
 		
-		HashSet hs=new HashSet(); // default capacity 16 Load Factor: 0.75
+		HashSet<Object> hs=new HashSet<Object>(); // default capacity 16 Load Factor: 0.75
 		//HashSet hs=new HashSet(100); // capacity 100 Load Factor 0.75
 		//HashSet hs=new HashSet(10, (float) 0.90);
 		//HashMap hs=new HashMap(C);
@@ -58,7 +58,7 @@ public class HashSetDemo1 {
 			}
 				
 		// iterator() method
-		Iterator it=hs.iterator();
+		Iterator<Object> it=hs.iterator();
 				while(it.hasNext())
 				{
 					System.out.println(it.next());

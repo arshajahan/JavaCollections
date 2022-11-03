@@ -8,7 +8,7 @@ public class LinkedListDemo2 {
 
 	public static void main(String[] args) {
 		
-		LinkedList l=new LinkedList();
+		LinkedList<String> l=new LinkedList<String>();
 		
 		l.add("X");
 		l.add("Y");
@@ -17,7 +17,7 @@ public class LinkedListDemo2 {
 		l.add("B");
 		l.add("C");
 		
-		LinkedList l_dup=new LinkedList();
+		LinkedList<String> l_dup=new LinkedList<String>();
 		l_dup.addAll(l);
 		System.out.println(l_dup); //[X, Y, Z, A, B, C]
 		

@@ -6,7 +6,7 @@ public class LinkedListDemo3 {
 
 	public static void main(String[] args) {
 		
-		LinkedList l=new LinkedList();
+		LinkedList<String> l=new LinkedList<String>();
 		
 		l.add("dog");
 		l.add("cat");

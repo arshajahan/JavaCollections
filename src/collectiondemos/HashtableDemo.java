@@ -14,7 +14,7 @@ public class HashtableDemo {
 		//Hashtable t=new(initial capacity);  // create hashtable object with some capacity
 		//Hashtable t=new Hashtable(initial capacity, fill ratio/load factor);
 		
-		Hashtable <Integer,String> t=new Hashtable<Integer,String>();
+		Hashtable <Integer,String> t=new Hashtable<Integer,String>(15, 0.80f);
 		
 		t.put(101,"John");
 		t.put(102,"David");

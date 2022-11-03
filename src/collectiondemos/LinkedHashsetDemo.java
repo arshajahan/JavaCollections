@@ -9,7 +9,7 @@ public class LinkedHashsetDemo {
 		
 		//LinkedHashSet <Integer>lset=new LinkedHashSet<Integer>();
 		//HashSet lset=new HashSet();
-		LinkedHashSet lset=new LinkedHashSet();
+		LinkedHashSet<Integer> lset=new LinkedHashSet<Integer>();
 		
 		lset.add(100);
 		lset.add(200);
@@ -17,7 +17,7 @@ public class LinkedHashsetDemo {
 		lset.add(400);
 		lset.add(500);
 		
-		System.out.println(lset); //[400, 100, 500, 200, 300]
+		System.out.println(lset); 
 
 	}
 

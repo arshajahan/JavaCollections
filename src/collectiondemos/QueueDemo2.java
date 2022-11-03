@@ -1,14 +1,13 @@
 package collectiondemos;
 
-import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class QueueDemo2 {
 
 	public static void main(String[] args) {
 	
-		LinkedList q=new LinkedList();
+		Queue<Object> q=new LinkedList<Object>();
 				
 		//Adding elements   add()  offer()
 		
